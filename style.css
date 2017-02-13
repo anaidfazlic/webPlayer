@@ -1,0 +1,47 @@
+
+        body {
+            margin: 0;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: auto;
+            padding: 0;
+            overflow: hidden;
+            background-color: #EDEDED;
+        }
+        
+        li {
+            float: left;
+            align-items: center;
+        }
+        
+        li a {
+            display: block;
+            color: #232323;
+            text-align: center;
+            padding: 9px 16px 5px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #E4E4E4;
+        }
+        
+        li h3 {
+            margin: 6px;
+        }
+        
+        #textHTML {
+            float: left;
+        }
+        
+        #textCSS {
+            float: left;
+            display: none;
+        }
+        
+        #textJS {
+            float: left;
+            display: none;
+        }
