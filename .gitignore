@@ -1,29 +1,25 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Created by https://www.gitignore.io/api/windows
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-# Fortran module files
-*.mod
-*.smod
+# Folder config file
+Desktop.ini
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Executables
-*.exe
-*.out
-*.app
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/windows
