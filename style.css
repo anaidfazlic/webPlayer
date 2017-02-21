@@ -1,47 +1,41 @@
 
         body {
             margin: 0;
+            font-family: Helvetica, sans-serif;
         }
         
-        ul {
-            list-style-type: none;
-            margin: auto;
-            padding: 0;
-            overflow: hidden;
+        #header{
+            width: 100%;
             background-color: #EDEDED;
+            height: 50px;
+           
         }
-        
-        li {
+        #logo{
+            font-size: 120%;
+            font-weight: bold;
             float: left;
-            align-items: center;
+            
         }
-        
-        li a {
-            display: block;
-            color: #232323;
-            text-align: center;
-            padding: 9px 16px 5px;
-            text-decoration: none;
+        #navigation{
+            width: 208px;
+            margin: 0 auto;
+           
         }
-        
-        li a:hover {
-            background-color: #E4E4E4;
-        }
-        
-        li h3 {
-            margin: 6px;
-        }
-        
-        #textHTML {
+        .toggleButton{
             float: left;
+            border: 1px solid lightslategray;
+            padding: 5px;
+            padding-right: 10px;
+            padding-left: 10px;            
+            border-right: none;
+            font-size: 90%;
         }
-        
-        #textCSS {
-            float: left;
-            display: none;
+        #htmlButton{
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
         }
-        
-        #textJS {
-            float: left;
-            display: none;
+         #outputButton{
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-right: 1px solid lightslategray;
         }
