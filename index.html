@@ -18,10 +18,10 @@
         <div id="header">
             <div id="logo">WebPlayer</div>
             <div id="navigation">
-                <div class="toggleButton" id="htmlButton">HTML</div>
+                <div class="toggleButton active" id="htmlButton">HTML</div>
                 <div class="toggleButton" id="cssButton">CSS</div>
                 <div class="toggleButton" id="jsButton">JS</div>
-                <div class="toggleButton" id="outputButton">Output</div>
+                <div class="toggleButton active" id="outputButton">Output</div>
             </div>
         </div>
 
@@ -29,25 +29,21 @@
     </div>
 
 
-    <script>
-        // var show=true;
-        $("#htmlButton").click(function () {
-            // if(show){
-            //     $("#textHTML").css("display","none");
-            //     show=false;
-            // }
-
-            // else{
-            //     $("#textHTML").show();
-            //     show=true;
-            // }
-            $("#textHTML").toggle();
-        });
-        $("#cssButton").click(function () {
-            $("#textCSS").toggle();
-        });
-        $("#jsButton").click(function () {
-            $("#textJS").toggle();
+    <script type="text/javascript">
+        $(".toggleButton").hover(function() {
+                
+                $(this).addClass("highlight");
+                
+            }, function() {
+                
+                $(this).removeClass("highlight");
+                
+            });
+        $(".toggleButton").click(function() {
+                
+                $(this).toggleClass("active");
+                
+                $(this).removeClass("highlightedButton");
         });
     </script>
 
