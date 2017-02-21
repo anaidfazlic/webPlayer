@@ -1,20 +1,18 @@
+$(document).ready(function(){
+    $(".toggleButton").hover(function () {
 
-// var show=true;
-$("#htmlButton").click(function () {
-    // if(show){
-    //     $("#textHTML").css("display","none");
-    //     show=false;
-    // }
+    $(this).addClass("highlight");
 
-    // else{
-    //     $("#textHTML").show();
-    //     show=true;
-    // }
-    $("#textHTML").toggle();
+}, function () {
+
+    $(this).removeClass("highlight");
+
 });
-$("#cssButton").click(function () {
-    $("#textCSS").toggle();
+$(".toggleButton").click(function () {
+
+    $(this).toggleClass("active");
+
+    $(this).removeClass("highlightedButton");
 });
-$("#jsButton").click(function () {
-    $("#textJS").toggle();
+
 });
