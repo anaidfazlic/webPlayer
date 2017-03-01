@@ -48,5 +48,16 @@
             background-color: gray;
         }
         .active{
-             background-color: #ECF2FA;
+             background-color: aliceblue;
         }
+        textarea{
+            border-top: none;
+            resize: none;
+            border-color: grey;
+        }
+        .panel{
+             width: 50%;
+             float: left;
+        }
+    
+      
