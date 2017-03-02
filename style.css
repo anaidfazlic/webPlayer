@@ -34,12 +34,12 @@
             border-right: none;
             font-size: 90%;
         }
-        #htmlButton{
+        #html{
             border-top-left-radius: 4px;
             border-bottom-left-radius: 4px;
            
         }
-         #outputButton{
+         #output{
             border-top-right-radius: 4px;
             border-bottom-right-radius: 4px;
             border-right: 1px solid lightslategray;       
@@ -58,6 +58,13 @@
         .panel{
              width: 50%;
              float: left;
+             border-left: none;
+        }
+        .hidden{
+            display: none;
+        }
+        iframe{
+            border-right: 1px solid lightgrey;
         }
     
       

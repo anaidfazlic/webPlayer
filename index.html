@@ -18,15 +18,17 @@
         <div id="header">
             <div id="logo">WebPlayer</div>
             <div id="navigation">
-                <div class="toggleButton active" id="htmlButton">HTML</div>
-                <div class="toggleButton" id="cssButton">CSS</div>
-                <div class="toggleButton" id="jsButton">JS</div>
-                <div class="toggleButton active" id="outputButton">Output</div>
+                <div class="toggleButton active" id="html">HTML</div>
+                <div class="toggleButton" id="css">CSS</div>
+                <div class="toggleButton" id="js">JS</div>
+                <div class="toggleButton active" id="output">Output</div>
             </div>
         </div>
         
         <div id="bodyContainer">
         <textarea name="textarea" id="htmlPanel" class="panel">Hello World!</textarea>
+        <textarea name="textarea" id="cssPanel" class="panel hidden">p{color:lightgreen;}</textarea>
+        <textarea name="textarea" id="jsPanel" class="panel hidden">alert("Hi!")</textarea>        
         <iframe src="" id="outputPanel" class="panel" frameborder="0"></iframe>
     </div>
 
